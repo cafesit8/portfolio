@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.effect{
+    background-image: url('assets/noise.gif');
+    opacity: 0.030;
+    z-index: 200;
+}
+
+@font-face {
+    font-family: 'baloo400';
+    src: url('./fonts/BalooBhaina2-Bold.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'baloo500';
+    src: url('./fonts/BalooBhaina2-ExtraBold.woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'baloo600';
+    src: url('./fonts/BalooBhaina2-Medium.woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'monserrat200';
+    src: url('./fonts/Montserrat-ExtraLight.woff2');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'monserrat300';
+    src: url('./fonts/Montserrat-Light.woff2');
+    font-weight: 300;
+}
