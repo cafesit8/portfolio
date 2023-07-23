@@ -5,7 +5,7 @@ const Home = lazy(() => import('./pages/Home'))
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route path='/portfolio' element={<Home />} />
     </Routes>
   )
 }
