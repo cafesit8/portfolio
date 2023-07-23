@@ -8,13 +8,13 @@ export default {
     extend: {
       colors: {
         bluebg: '#050c1a',
-        bluecard: '#1d2e4e'
+        //bluecard: '#1d2e4e'
+        bluecard: '#2B426F'
       },
       fontFamily: {
         baloo400: ['Baloo400', 'sans-serif'],
         baloo500: ['Baloo500', 'sans-serif'],
-        baloo600: ['Baloo600', 'sans-serif'],
-        monserrat200: ['Monserrat200', 'sans-serif'],
+        monserrat200: ['Monserrat200'],
       }
     },
   },
