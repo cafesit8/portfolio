@@ -1,6 +1,6 @@
 import { lazy } from 'react'
 import { Linkedin, Github, Whatsaap, Email } from '../icons/social-media'
-import { CSS, Git, HTML, JavaScript, NextJs, NodeJs, React, ReactQuery, Redux, Sass, Tailwind, Vue } from '../icons/skills'
+import { CSS, Git, HTML, JavaScript, NextJs, React, ReactQuery, Redux, Sass, Tailwind, TypeScript, Vue } from '../icons/skills'
 const AgeCard = lazy(() => import('../components/Age'))
 const IcpnaCard = lazy(() => import('../components/IcpnaCard'))
 const MediaCard = lazy(() => import('../components/MediaCard'))
@@ -34,6 +34,7 @@ export default function Home() {
           <HTML />
           <CSS />
           <JavaScript />
+          <TypeScript />
           <Sass />
           <React />
           <Vue />
@@ -41,7 +42,6 @@ export default function Home() {
           <ReactQuery />
           <Redux />
           <Tailwind />
-          <NodeJs />
           <Git />
           </article>
         </div>  
