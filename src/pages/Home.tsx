@@ -8,7 +8,7 @@ const MediaCard = lazy(() => import('../components/MediaCard'))
 const Presentation = lazy(() => import('../components/Presentation'))
 const ProjectsCard = lazy(() => import('../components/ProjectsCard'))
 
-export default function Home() {
+export default function Home () {
   return (
     <main className="w-full bg-bluebg min-h-screen flex justify-center sm:pt-10 px-5 scroll-smooth">
       <div className='effect pointer-events-none fixed top-0 left-0 w-full h-screen'></div>
@@ -30,24 +30,24 @@ export default function Home() {
         <ExperienceCard />
         <AgeCard />
         <IcpnaCard />
-        <div className="bg-bluecard rounded-2xl aspect-square flex flex-wrap">
+        <div className="bg-bluecard rounded-2xl aspect-square flex flex-wrap animate-fade-down animate-delay-[2300ms]">
           <article className='w-full sm:p-2 p-1 items-center grid grid-cols-4 sm:gap-3 gap-1'>
-          <HTML />
-          <CSS />
-          <JavaScript />
-          <TypeScript />
-          <Sass />
-          <React />
-          <Vue />
-          <NextJs />
-          <ReactQuery />
-          <Redux />
-          <Tailwind />
-          <Git />
+            <HTML />
+            <CSS />
+            <JavaScript />
+            <TypeScript />
+            <Sass />
+            <React />
+            <Vue />
+            <NextJs />
+            <ReactQuery />
+            <Redux />
+            <Tailwind />
+            <Git />
           </article>
-        </div>  
-        <div className="bg-bluecard rounded-2xl aspect-auto md:col-span-2"></div>
-        <div className="bg-bluecard rounded-2xl aspect-square md:block hidden"></div>
+        </div>
+        <div className="bg-bluecard rounded-2xl aspect-auto md:col-span-2 animate-fade-down animate-delay-[2900ms]"></div>
+        <div className="bg-bluecard rounded-2xl aspect-square md:block hidden animate-fade-down animate-delay-[2600ms]"></div>
       </section>
     </main>
   )

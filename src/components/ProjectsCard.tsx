@@ -1,7 +1,7 @@
 import simpson from '../assets/giphy.gif'
 import { Arrow } from '../icons/target'
 
-export default function ProjectsCard() {
+export default function ProjectsCard () {
   return (
     <div className="bg-bluecard animate-fade-down animate-delay-[1200ms] relative z-20 overflow-hidden rounded-2xl aspect-auto col-span-2 md:p-5 p-2">
       <Arrow />
