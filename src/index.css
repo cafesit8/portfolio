@@ -4,9 +4,9 @@
 
 
 .effect{
-    background-image: url('assets/noise.gif');
-    opacity: 0.030;
-    z-index: 200;
+  background-image: url('assets/noise.gif');
+  opacity: 0.030;
+  z-index: 200;
 }
 
 @font-face {
@@ -31,4 +31,11 @@
     font-family: 'monserrat300';
     src: url('./fonts/Montserrat-Light.woff2');
     font-weight: 300;
+}
+
+.card:hover .img{
+  height: 75%;
+}
+.card:hover .text{
+  height: 25%;
 }

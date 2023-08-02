@@ -1,9 +1,12 @@
 import simpson from '../assets/giphy.gif'
 import { Arrow } from '../icons/target'
+import { useNavigate } from 'react-router-dom'
 
 export default function ProjectsCard () {
+  const navigate = useNavigate()
+  const handleClick = () => navigate('/portfolio/projects/react')
   return (
-    <div className="bg-bluecard animate-fade-down animate-delay-[1200ms] relative z-20 overflow-hidden rounded-2xl aspect-auto col-span-2 md:p-5 p-2">
+    <div onClick={handleClick} className="bg-bluecard animate-fade-down animate-delay-[1200ms] cursor-pointer relative z-20 overflow-hidden rounded-2xl aspect-auto col-span-2 md:p-5 p-2">
       <Arrow />
       <h2 className="text-white font-baloo400 md:mb-3 md:mt-1 font-bold text-2xl md:text-[40px] text-[20px]">Projects</h2>
       <p className='text-white sm:text-xl text-[12px]'>In this section you'll be able to see some of my projects</p>
