@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 export default function ProjectsCard () {
   const navigate = useNavigate()
-  const handleClick = () => navigate('/portfolio/projects/react')
+  const handleClick = () => navigate('/projects/react')
   return (
     <div onClick={handleClick} className="bg-bluecard animate-fade-down animate-delay-[1200ms] cursor-pointer relative z-20 overflow-hidden rounded-2xl aspect-auto col-span-2 md:p-5 p-2">
       <Arrow />
