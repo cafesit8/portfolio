@@ -8,6 +8,8 @@ interface Card {
   description: string,
   skills: (() => ReactElement)[]
   bg: string
+  url: string
+  github: string
 }
 
 interface ProjectCardProps {
@@ -25,10 +27,10 @@ export default function ProjectCard ({ item }: ProjectCardProps) {
   return (
     <>
       <article onClick={handleClick} className="card w-full cursor-pointer md:h-[350px] bg-bluecard h-[250px] rounded-xl overflow-hidden relative">
-        <picture className='img w-full h-full block duration-200'>
+        <picture className='img w-full md:h-full h-[75%] block duration-200'>
           <img className='w-full h-full object-cover' src={item.img} alt={`image of ${item.title}`} />
         </picture>
-        <div className={`text w-full flex flex-col justify-center p-3 truncate duration-200 text-ellipsis h-0 ${item.bg}`}>
+        <div className={`text w-full md:h-0 h-[25%] flex flex-col justify-center p-3 truncate duration-200 text-ellipsis ${item.bg}`}>
           <h6 className='font-bold font-baloo400 outline-none text-xl'>{item.title}</h6>
           <p className='outline-none text-white/80'>{item.description}</p>
         </div>

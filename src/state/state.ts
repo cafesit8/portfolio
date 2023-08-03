@@ -7,6 +7,8 @@ type infoType = {
     description: string
     skills: (() => ReactElement)[]
     bg: string
+    url: string
+    github: string
 }
 
 interface GlobalStore {

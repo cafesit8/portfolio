@@ -6,7 +6,7 @@ export default function Projects () {
       <div className='effect pointer-events-none fixed top-0 left-0 w-full h-screen'></div>
       <section className="gap-4 my-5 md:max-w-[1200px] w-full mx-auto flex flex-col">
         <header className="bg-bluecard w-full h-auto p-6 rounded-xl flex justify-center flex-col">
-          <h1 className="text-6xl font-bold text-left font-baloo400 leading-none">Projects</h1>
+          <h1 className="md:text-6xl text-2xl font-bold text-left font-baloo400 leading-none">Projects</h1>
           <p className="md:text-[20px] text-[16px] text-white/80">In this section you will see my projects made with various technologies in order to practice what I have learned.</p>
         </header>
         <section className="h-auto bg-bluecard rounded-xl flex-row py-4 px-6 flex sm:justify-evenly justify-start md:gap-0 gap-7 md:overflow-auto overflow-y-scroll">

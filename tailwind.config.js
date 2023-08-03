@@ -14,7 +14,7 @@ export default withMT({
       fontFamily: {
         baloo400: ['Baloo400', 'sans-serif'],
         baloo500: ['Baloo500', 'sans-serif'],
-        monserrat200: ['Monserrat200']
+        monserrat200: ['Monserrat200', 'cursive']
       }
     }
   },
