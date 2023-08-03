@@ -1,6 +1,7 @@
 import socialMediaApp from '../assets/Js/red-social.webp'
 import ecommerce from '../assets/Js/ecommerce.webp'
 import anime from '../assets/Js/jikanApi.webp'
+import fruits from '../assets/Js/fruits.webp'
 import headphones from '../assets/Js/headphones.webp'
 import seasons from '../assets/Js/estaciones.webp'
 import moon from '../assets/Js/space.webp'
@@ -8,6 +9,7 @@ import music from '../assets/Js/music-app.webp'
 import cake from '../assets/Js/helados.webp'
 import bookmark from '../assets/Js/bookmark.webp'
 import huddle from '../assets/Js/landing-page.webp'
+import grids from '../assets/Js/grid.webp'
 import { JavaScript, HTML, Sass, CSS, Tailwind } from '../icons/skills'
 
 export const Js = [{
@@ -15,7 +17,7 @@ export const Js = [{
   img: socialMediaApp,
   description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
   skills: [HTML, Sass, JavaScript],
-  bg: 'bg-[#2070bb]',
+  bg: 'bg-[#41a8c3]',
   url: 'https://cafesito-book.netlify.app',
   github: 'https://github.com/cafesit8/Red-Social'
 }, {
@@ -23,7 +25,7 @@ export const Js = [{
   img: ecommerce,
   description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
   skills: [HTML, CSS, JavaScript],
-  bg: 'bg-[#2070bb]',
+  bg: 'bg-[#51a367]',
   url: 'https://cafesito-shop.netlify.app',
   github: 'https://github.com/cafesit8/ecommerce'
 }, {
@@ -31,15 +33,15 @@ export const Js = [{
   img: anime,
   description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
   skills: [HTML, CSS, JavaScript],
-  bg: 'bg-[#2070bb]',
+  bg: 'bg-[#4a6fa1]',
   url: 'https://api-anime.netlify.app',
   github: 'https://github.com/cafesit8/Jikan-Api'
 }, {
   title: 'Healthy Fruits',
-  img: anime,
+  img: fruits,
   description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
   skills: [HTML, Sass, JavaScript],
-  bg: 'bg-[#2070bb]',
+  bg: 'bg-[#cdad24]',
   url: 'https://cafesit8.github.io/Fruits/',
   github: 'https://github.com/cafesit8/Fruits'
 }, {
@@ -47,7 +49,7 @@ export const Js = [{
   img: headphones,
   description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
   skills: [HTML, Tailwind, JavaScript],
-  bg: 'bg-[#2070bb]',
+  bg: 'bg-[#36393c]',
   url: 'https://cafesit8.github.io/headphones-tailwind/',
   github: 'https://github.com/cafesit8/headphones-tailwind'
 }, {
@@ -55,7 +57,7 @@ export const Js = [{
   img: seasons,
   description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
   skills: [HTML, Sass, JavaScript],
-  bg: 'bg-[#2070bb]',
+  bg: 'bg-[#16737c]',
   url: 'https://cafesit8.github.io/estaciones/',
   github: 'https://github.com/cafesit8/estaciones'
 }, {
@@ -63,7 +65,7 @@ export const Js = [{
   img: moon,
   description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
   skills: [HTML, Sass, JavaScript],
-  bg: 'bg-[#2070bb]',
+  bg: 'bg-[#733281]',
   url: 'https://cafesit8.github.io/space/',
   github: 'https://github.com/cafesit8/space'
 }, {
@@ -71,7 +73,7 @@ export const Js = [{
   img: music,
   description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
   skills: [HTML, CSS, JavaScript],
-  bg: 'bg-[#2070bb]',
+  bg: 'bg-[#d9164d]',
   url: 'https://cafesit8.github.io/Music-App/',
   github: 'https://github.com/cafesit8/Music-App'
 }, {
@@ -79,7 +81,7 @@ export const Js = [{
   img: cake,
   description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
   skills: [HTML, Sass],
-  bg: 'bg-[#2070bb]',
+  bg: 'bg-[#72200d]',
   url: 'https://respoteria.netlify.app',
   github: 'https://github.com/cafesit8/reposter-a'
 }, {
@@ -87,7 +89,7 @@ export const Js = [{
   img: bookmark,
   description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
   skills: [HTML, CSS, JavaScript],
-  bg: 'bg-[#2070bb]',
+  bg: 'bg-[#5367d7]',
   url: 'https://cafesit8.github.io/Bookmark/?submit=Contact+Us',
   github: 'https://github.com/cafesit8/Bookmark'
 }, {
@@ -95,15 +97,15 @@ export const Js = [{
   img: huddle,
   description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
   skills: [HTML, CSS],
-  bg: 'bg-[#2070bb]',
+  bg: 'bg-[#089ff9]',
   url: 'https://cafesit8.github.io/landing-page/',
   github: 'https://github.com/cafesit8/landing-page'
 }, {
   title: 'Grids Cards',
-  img: bookmark,
+  img: grids,
   description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
   skills: [HTML, CSS],
-  bg: 'bg-[#2070bb]',
+  bg: 'bg-[#7342c6]',
   url: 'https://cafesit8.github.io/cartillas-grid/',
   github: 'https://github.com/cafesit8/cartillas-grid'
 }]
