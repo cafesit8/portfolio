@@ -11,12 +11,12 @@ function App () {
   return (
     <Suspense fallback={<main className='bg-bluebg w-full h-screen'>Loading...</main>}>
       <Routes>
-        <Route path='/portfolio' element={<Home />} />
+        <Route path='/' element={<Home />} />
         <Route element={<Projects />}>
-          <Route path='/portfolio/projects/React' element={<React />} />
-          <Route path='/portfolio/projects/NextJs' element={<NextJs />} />
-          <Route path='/portfolio/projects/Js' element={<Js />} />
-          <Route path='/portfolio/projects/Vue' element={<Vue />} />
+          <Route path='/projects/React' element={<React />} />
+          <Route path='/projects/NextJs' element={<NextJs />} />
+          <Route path='/projects/Js' element={<Js />} />
+          <Route path='/projects/Vue' element={<Vue />} />
         </Route>
       </Routes>
     </Suspense>
