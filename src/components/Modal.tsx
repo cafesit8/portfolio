@@ -22,7 +22,7 @@ export function Modal ({ open, handleOpen }: ModalProps) {
       className='rounded-xl'
     >
       <DialogBody className={`${info.bg} rounded-xl p-3`}>
-        <section className='w-full h-full flex flex-col border relative bg-bluebg text-white p-5 rounded-xl'>
+        <section className='w-full h-full flex flex-col relative bg-bluebg text-white p-5 rounded-xl'>
           <button onClick={handleOpen} className='absolute right-6 top-6 w-[12px] h-[12px]'>
             <svg version="1.1" className='text-white w-full h-full object-contain'>
               <line x1="1" y1="11"
