@@ -1,0 +1,1 @@
+import{j as e}from"./index-96e68587.js";function r(){return e.jsx("section",{className:"w-full border-2 border-yellow-400 h-full",children:e.jsxs("div",{className:"flex flex-wrap gap-5",children:[e.jsx("article",{className:"border md:w-[300px] w-full h-[300px]"}),e.jsx("article",{className:"border md:w-[300px] w-full h-[300px]"})]})})}export{r as default};
