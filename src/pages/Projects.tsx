@@ -1,5 +1,5 @@
-import { Outlet } from 'react-router-dom'
 import HeaderProjects from '../components/HeaderProjects'
+import Tabss from '../components/Tabs'
 
 export default function Projects () {
   return (
@@ -7,7 +7,7 @@ export default function Projects () {
       <div className='effect pointer-events-none fixed top-0 left-0 w-full h-screen'></div>
       <section className="gap-4 my-5 md:max-w-[1200px] w-full mx-auto flex flex-col">
         <HeaderProjects />
-        <Outlet />
+        <Tabss />
       </section>
     </main>
   )
