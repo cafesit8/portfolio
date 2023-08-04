@@ -28,11 +28,11 @@ export function Modal ({ open, handleOpen }: ModalProps) {
               <line x1="1" y1="11"
                 x2="11" y2="1"
                 stroke="white"
-                stroke-width="2" />
+                strokeWidth="2" />
               <line x1="1" y1="1"
                 x2="11" y2="11"
                 stroke="white"
-                stroke-width="2" />
+                strokeWidth="2" />
             </svg>
           </button>
           <h2 className='md:text-3xl text-lg font-bold font-baloo400'>{info.title}</h2>
