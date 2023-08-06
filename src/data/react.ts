@@ -11,7 +11,7 @@ import { React, Tailwind, Firebase, TypeScript, Sass, JavaScript, GraphQl, CSS }
 export const react = [{
   title: 'Weather App',
   img: weatherApp,
-  description: 'Inkfinity es un sitio web donde puedes explorar y añadir libros a tu lista de lectura. Utilizando React/Next.js y Tailwind, desarrollé esta prueba técnica para el evento de midudev. Con filtros por categoría, número de páginas y una función de búsqueda, encontrar tu libro favorito es fácil y rápido. La interfaz es intuitiva y responsive, brindando una experiencia de usuario fluida en cualquier dispositivo. Demuestro mis habilidades en desarrollo frontend al utilizar componentes en React y estilos con Tailwind CSS.',
+  description: 'This is one of the first projects I did with React, using the wheather api, I was able to improve my asynchronous requests using JavaScript, I used ReactJs for the creation of the user interface, TailwindCSS the styles framework for a better user experience and ContextAPI for global state.',
   skills: [React, JavaScript, Tailwind],
   bg: 'bg-[#2070bb]',
   url: 'https://cafesit8.github.io/Weather-App/',
@@ -19,7 +19,7 @@ export const react = [{
 }, {
   title: 'Rick and Morty',
   img: rickMorty,
-  description: 'lorem ipsum dolor sit amet consectetur adipisicing elitQuisquam, voluptatum.',
+  description: 'This application was very interesting for me, because I learned new technologies, such as for requests to use Apollo Client using the Rick and Morty api with GraphQl, data filters, synchronous and asynchronous code. For this project I used ReactJs technologies for creating user interfaces, TypeScript for safer, error-free code, Zustand for global state, and TailwindCSS for styles and colors.',
   skills: [React, TypeScript, GraphQl, Tailwind],
   bg: 'bg-[#8b35b6]',
   url: 'https://cafesit8.github.io/rick-morty-graphQl-Apollo/',
@@ -27,7 +27,7 @@ export const react = [{
 }, {
   title: 'Poke App',
   img: pokeApp,
-  description: 'lorem ipsum dolor sit amet consectetur adipisicing elitQuisquam, voluptatum.',
+  description: 'The PokeApi project is one of my favorite projects, because with this project I learned to use TypeScript for a better code, free of errors, using the famous Pokemon api, asynchronous requests with TypeScript and data fetching. ReactJs for creating user interfaces and TailwindCSS for styling the project.',
   skills: [React, TypeScript, Tailwind],
   bg: 'bg-[#c19212]',
   url: 'https://cafesit8.github.io/poke-api/',
@@ -35,7 +35,7 @@ export const react = [{
 }, {
   title: 'Christmas',
   img: christmas,
-  description: 'lorem ipsum dolor sit amet consectetur adipisicing elitQuisquam, voluptatum.',
+  description: 'The Christmas landing page is one of my first projects with ReactJs, with this landing page I learned to create components with ReactJs and handling the virtual dom, JavaScript for the code and functionality of the page and for the styles I used my favorite pre-processor from CSS, Sass for reusing styles and creating constants with sass.',
   skills: [React, JavaScript, Sass],
   bg: 'bg-[#e11a2f]',
   url: 'https://cafesit8.github.io/christmas-react/',
@@ -43,7 +43,7 @@ export const react = [{
 }, {
   title: 'Social Media',
   img: socialMedia,
-  description: 'lorem ipsum dolor sit amet consectetur adipisicing elitQuisquam, voluptatum.',
+  description: 'This project seeks to create a page where you can post your photos and videos, thus being a page similar to that of facebook, with this application I was able to improve my knowledge with ReactJs, as well as create protected pages and dynamic rendering, I made the backend with Firebase, for styling with TailwindCSS, JavaScript for asynchronous code, and app functionality.',
   skills: [React, JavaScript, Tailwind, Firebase],
   bg: 'bg-[#5457ce]',
   url: 'https://cafesit8.github.io/CafecitBook/',
