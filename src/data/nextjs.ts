@@ -22,7 +22,7 @@ export const nextjs = [{
 }, {
   title: 'ChatGPT Clone',
   img: chatgpt,
-  description: 'One of my last projects made to use the ChatGPT api, a clone of this page to use code in the frontend as well as in the backend using the NextJs framework, handle asynchronous code for requests by medi ed axios. The technologies I used were NextJs, TailwindCSS for styling, TypeScript for safer code and Zustand for global state.',
+  description: 'One of my last projects made to use the ChatGPT api, a clone of this page to use code in the frontend as well as in the backend using the NextJs framework, handle asynchronous code for requests via axios. The technologies I used were NextJs, TailwindCSS for styling, TypeScript for safer code and Zustand for global state.',
   skills: [NextJs, TypeScript, Zustand, Tailwind],
   bg: 'bg-[#449b84]',
   url: 'chatgpt-clone-cafesit8.vercel.app',
