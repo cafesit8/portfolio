@@ -9,7 +9,7 @@ export const nextjs = [{
   description: 'This is a popular movie app, I made this app using NextJs technologies for the frontend taking advantage of the good optimization it gives to images, TailwindCSS for styling, Zustand to handle global state and TypeScript for better code and error avoidance clean. I reinforced my knowledge in REST API requests, asynchronous and synchronous code. Using the public MovieTMDB api to display all data and images in the app.',
   skills: [NextJs, TypeScript, Zustand, Tailwind],
   bg: 'bg-[#2070bb]',
-  url: 'app-movies-ecru.vercel.app',
+  url: 'https://app-movies-ecru.vercel.app',
   github: 'https://github.com/cafesit8/disney'
 }, {
   title: 'Guest the Character',
@@ -25,6 +25,6 @@ export const nextjs = [{
   description: 'One of my last projects made to use the ChatGPT api, a clone of this page to use code in the frontend as well as in the backend using the NextJs framework, handle asynchronous code for requests via axios. The technologies I used were NextJs, TailwindCSS for styling, TypeScript for safer code and Zustand for global state.',
   skills: [NextJs, TypeScript, Zustand, Tailwind],
   bg: 'bg-[#449b84]',
-  url: 'chatgpt-clone-cafesit8.vercel.app',
+  url: 'https://chatgpt-clone-cafesit8.vercel.app',
   github: 'https://github.com/cafesit8/chat-gpt-clone'
 }]
