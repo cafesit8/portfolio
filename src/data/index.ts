@@ -30,13 +30,6 @@ export const data: Data[] = [
     value: 'nextjs',
     content: nextjs
   },
-
-  {
-    label: 'Vue',
-    value: 'vue',
-    content: nextjs
-  },
-
   {
     label: 'Js',
     value: 'js',
