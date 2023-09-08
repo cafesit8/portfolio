@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat:wght@200;300;400');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 .effect{
   background-image: url('assets/noise.gif');
@@ -15,13 +18,13 @@
 }
 
 @font-face {
-    font-family: 'monserrat200';
-    src: url('./fonts/Montserrat-ExtraLight.woff2');
+    font-family: 'montserrat200';
+    src: url('./fonts/Montserrat-ExtraLight.woff2') format('opentype');
     font-weight: 200;
 }
 
 @font-face {
-    font-family: 'monserrat300';
+    font-family: 'montserrat300';
     src: url('./fonts/Montserrat-Light.woff2');
     font-weight: 300;
 }
