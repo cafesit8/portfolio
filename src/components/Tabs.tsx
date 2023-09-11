@@ -23,7 +23,7 @@ export default function Tabss () {
             onClick={() => setActiveTab(value)}
             className='text-white'
           >
-            {label}
+            <span translate='no'>{label}</span>
           </Tab>
         ))}
       </TabsHeader>
